@@ -1,0 +1,12 @@
+{
+  "name": "aegis",
+  "version": "1.0.0",
+  "description": "**Aegis** is an integrated DevOps system that combines **accessibility testing in CI/CD pipelines** with **alert correlation** to reduce alert fatigue and improve user-focused application reliability.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
