@@ -1,12 +1,15 @@
 {
   "name": "aegis",
-  "version": "1.0.0",
-  "description": "**Aegis** is an integrated DevOps system that combines **accessibility testing in CI/CD pipelines** with **alert correlation** to reduce alert fatigue and improve user-focused application reliability.",
-  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm --prefix apps/api run start",
+    "worker": "npm --prefix apps/worker run start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "@ljharb/tsconfig": "^0.3.2"
+  }
 }

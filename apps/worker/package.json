@@ -1,5 +1,5 @@
 {
-  "name": "@aegis/api",
+  "name": "@aegis/worker",
   "version": "1.0.0",
   "private": true,
   "main": "src/index.ts",
@@ -7,12 +7,9 @@
     "start": "ts-node-dev --respawn --transpile-only src/index.ts"
   },
   "dependencies": {
-    "cors": "^2.8.6",
-    "express": "^5.2.1"
+    "@aegis/correlation": "*"
   },
   "devDependencies": {
-    "@types/express": "^5.0.6",
-    "@types/node": "^25.0.10",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.9.3"
   }
