@@ -38,15 +38,6 @@ flutter build web
 
 ---
 
-## 🗂️ Structure
-```
-lib/
-  models/
-  screens/
-  services/
-```
-
----
 
 ## 🔒 Notes
 - Data is pulled from MCX endpoints.
@@ -55,8 +46,4 @@ lib/
 ---
 
 ## ✅ Status
-Stable and actively maintained.
-
----
-
-Want a minimal public demo or deployment setup? Open an issue and I’ll add it.
+Stable and hosted at https://datamcx.pages.dev/
