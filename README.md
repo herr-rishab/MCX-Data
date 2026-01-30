@@ -53,8 +53,9 @@ In most DevOps pipelines, accessibility tests and monitoring alerts work indepen
 
 ---
 
-## 🧮 Margin Logic
+## 🧮 Margin Calculation Logic
 
 Total = Initial + ELM + Tender + Delivery
-+ Add L/S + Spec L/S + Daily Vol + Annual Vol
+        + Add L/S + Spec L/S + Daily Vol + Annual Vol
+
 Difference = Total − Previous Day Total
